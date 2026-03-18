@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO & Meta Tags -->
+    <title>Pranav Rowthri - AI Developer & Tech Entrepreneur</title>
+    <meta name="description" content="Portfolio of Pranav Rowthri, a CSBS student and AI Developer. Building intelligent systems that improve education, productivity and digital experiences.">
+    <meta name="keywords" content="Pranav Rowthri, AI Developer, Machine Learning, CSBS, Tech Entrepreneur, AI Study Buddy">
+    <meta name="theme-color" content="#060a0f">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Pranav Rowthri - AI/ML Innovator">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Building intelligent systems that improve education, productivity and digital experiences.">
+    <meta property="og:url" content="https://pranavrowthri.com">
+    <meta property="og:image" content="https://pranavrowthri.com/og-image.jpg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <canvas id="star-canvas"></canvas>
+
+    <div id="custom-cursor"></div>
+    <div id="cursor-trail"></div>
+
+    <nav class="space-nav hidden-on-load">
+        <div class="nav-brand">PV</div>
+        <div class="nav-links">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#more" class="nav-link">More</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="live-status hidden-on-load">
+                    <span class="pulse-dot"></span> Currently Building: Faceless AI System
+                </div>
+                
+                <h1 class="hero-title" id="hero-name">PRANAV ROWTHRI</h1>
+                <h2 class="hero-role hidden-on-load">AI Developer & Tech Entrepreneur</h2>
+                <p class="hero-tagline hidden-on-load">Building intelligent systems that improve education, productivity and digital experiences.</p>
+                
+                <div class="hero-cta-group hidden-on-load">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="assets/resume/pranav-2.pdf" target="_blank" class="btn btn-secondary">Download Resume</a>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator hidden-on-load">
+                <span>SCROLL</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- About & Education -->
+        <section id="about" class="content-section">
+            <div class="container grid-2">
+                <div class="card float-card scroll-reveal col-about">
+                    <h3>About Me</h3>
+                    <p>Hello! I'm a Computer Science and Business Systems (CSBS) student with a relentless drive for innovation. My journey started with a fascination for data and has evolved into building deep AI-powered platforms.</p>
+                    <p>I thrive at the intersection of complex algorithms and human-centered design — solving real-world problems through automation, intelligent chatbots, and scalable digital architectures. Tech entrepreneurship is my true north.</p>
+                    
+                    <h4 class="mt-3">The Career Vision</h4>
+                    <p class="accent-text pink">Becoming a leading AI innovator, democratizing intelligent education for millions globally.</p>
+                </div>
+                
+                <div class="card float-card float-delayed scroll-reveal col-edu">
+                    <h3>Education</h3>
+                    <p class="accent-text">B.Tech – CSBS</p>
+                    <p>Rajalakshmi Engineering College</p>
+                    <p class="text-sm">Semester IV (Current)</p>
+                    
+                    <h4 class="mt-4">Relevant Coursework:</h4>
+                    <ul class="tag-list mt-2">
+                        <li>Operating Systems</li>
+                        <li>Machine Learning</li>
+                        <li>Artificial Intelligence</li>
+                        <li>Data Analysis</li>
+                        <li>Software Development</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Orbital Skills -->
+        <section id="skills" class="content-section">
+            <div class="container section-header scroll-reveal text-center">
+                <h2>The Command Center</h2>
+                <div class="header-line center"></div>
+            </div>
+            
+            <div class="container orbital-wrapper scroll-reveal">
+                <div class="orbital-container" id="orbital-skills">
+                    <div class="orbital-center">CORE</div>
+                    <!-- Three Rings -->
+                    <div class="orbital-ring ring-1"></div>
+                    <div class="orbital-ring ring-2"></div>
+                    <div class="orbital-ring ring-3"></div>
+                    
+                    <!-- Track 1: Technical (Radius 130) -->
+                    <div class="orbital-badge tech" data-radius="130" data-speed="0.006" data-angle="0">Python</div>
+                    <div class="orbital-badge tech" data-radius="130" data-speed="0.006" data-angle="72">AI</div>
+                    <div class="orbital-badge tech" data-radius="130" data-speed="0.006" data-angle="144">Machine Learning</div>
+                    <div class="orbital-badge tech" data-radius="130" data-speed="0.006" data-angle="216">Data Analysis</div>
+                    <div class="orbital-badge tech" data-radius="130" data-speed="0.006" data-angle="288">System Design</div>
+                    
+                    <!-- Track 2: Tools & Platforms (Radius 220, Reverse) -->
+                    <div class="orbital-badge tool" data-radius="220" data-speed="-0.004" data-angle="45">Canva</div>
+                    <div class="orbital-badge tool" data-radius="220" data-speed="-0.004" data-angle="165">AI Generation APIs</div>
+                    <div class="orbital-badge tool" data-radius="220" data-speed="-0.004" data-angle="285">Automation Scripts</div>
+                    
+                    <!-- Track 3: Soft Skills (Radius 320) -->
+                    <div class="orbital-badge soft" data-radius="320" data-speed="0.002" data-angle="90">Problem Solving</div>
+                    <div class="orbital-badge soft" data-radius="320" data-speed="0.002" data-angle="210">Tech Research</div>
+                    <div class="orbital-badge soft" data-radius="320" data-speed="0.002" data-angle="330">Startup Thinking</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="content-section">
+            <div class="container section-header scroll-reveal">
+                <h2>Payloads & Modules</h2>
+                <div class="header-line"></div>
+            </div>
+            
+            <div class="container project-grid">
+                <!-- Project 1 -->
+                <div class="project-card magnetic-hover scroll-reveal">
+                    <div class="project-content">
+                        <div class="project-number">01</div>
+                        <h3>AI Study Buddy</h3>
+                        <p class="project-desc">An intelligent education platform empowering students with role-based dashboards, interactive AI chatbot doubt-solving, and deep analytics.</p>
+                        
+                        <div class="project-features">
+                            <ul>
+                                <li>Admin/Teacher/Student Roles</li>
+                                <li>Chatbot Integration</li>
+                                <li>Class Quizzes & Tracking</li>
+                                <li>Voice Input/Output</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="project-tags">
+                            <span>AI Integration</span>
+                            <span>Databases</span>
+                            <span>EdTech</span>
+                        </div>
+                        <a href="#" class="btn btn-primary mt-4 btn-sm">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card magnetic-hover scroll-reveal float-delayed">
+                    <div class="project-content">
+                        <div class="project-number">02</div>
+                        <h3>EduPath AI</h3>
+                        <p class="project-desc">A highly adaptive AI learning system that continuously analyzes student performance and dynamically maps out precisely personalized study recommendations.</p>
+                        
+                        <div class="project-features">
+                            <ul>
+                                <li>Adaptive Content Delivery</li>
+                                <li>Performance Analytics</li>
+                                <li>AI Study Guidance</li>
+                                <li>Personalized Paths</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="project-tags">
+                            <span>Adaptive Logic</span>
+                            <span>Personalization</span>
+                            <span>ML Models</span>
+                        </div>
+                        <a href="#" class="btn btn-primary mt-4 btn-sm">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card magnetic-hover scroll-reveal float-delayed-2">
+                    <div class="project-content">
+                        <div class="project-number">03</div>
+                        <h3>Faceless AI Content System</h3>
+                        <p class="project-desc">A fully automated scalable YouTube production pipeline specifically tailored for the finance niche, using advanced AI for rapid content deployment.</p>
+                        
+                        <div class="project-features">
+                            <ul>
+                                <li>AI Video Generation</li>
+                                <li>Voice Synthesis Pipeline</li>
+                                <li>Automated Scripts</li>
+                                <li>Finance Niche Focus</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="project-tags">
+                            <span>Automation</span>
+                            <span>Generative AI</span>
+                            <span>Scraping</span>
+                        </div>
+                        <a href="#" class="btn btn-primary mt-4 btn-sm">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- More Sections: GitHub & Certs -->
+        <section id="more" class="content-section">
+            <div class="container grid-2">
+                <!-- GitHub Placeholder -->
+                <div class="card float-card scroll-reveal">
+                    <h3>Code Contributions</h3>
+                    <div class="github-graph-placeholder">
+                        <div class="gh-row">
+                            <div class="gh-cell c-0"></div><div class="gh-cell c-3"></div><div class="gh-cell c-1"></div><div class="gh-cell c-4"></div><div class="gh-cell c-2"></div>
+                            <div class="gh-cell c-1"></div><div class="gh-cell c-0"></div><div class="gh-cell c-3"></div><div class="gh-cell c-4"></div><div class="gh-cell c-4"></div>
+                        </div>
+                        <div class="gh-row">
+                            <div class="gh-cell c-1"></div><div class="gh-cell c-2"></div><div class="gh-cell c-4"></div><div class="gh-cell c-4"></div><div class="gh-cell c-1"></div>
+                            <div class="gh-cell c-0"></div><div class="gh-cell c-3"></div><div class="gh-cell c-1"></div><div class="gh-cell c-1"></div><div class="gh-cell c-2"></div>
+                        </div>
+                        <div class="gh-row">
+                            <div class="gh-cell c-0"></div><div class="gh-cell c-2"></div><div class="gh-cell c-2"></div><div class="gh-cell c-3"></div><div class="gh-cell c-1"></div>
+                            <div class="gh-cell c-1"></div><div class="gh-cell c-4"></div><div class="gh-cell c-3"></div><div class="gh-cell c-0"></div><div class="gh-cell c-1"></div>
+                        </div>
+                        <div class="gh-row">
+                            <div class="gh-cell c-4"></div><div class="gh-cell c-3"></div><div class="gh-cell c-1"></div><div class="gh-cell c-0"></div><div class="gh-cell c-1"></div>
+                            <div class="gh-cell c-2"></div><div class="gh-cell c-1"></div><div class="gh-cell c-4"></div><div class="gh-cell c-3"></div><div class="gh-cell c-0"></div>
+                        </div>
+                    </div>
+                    <p class="text-sm mt-3 text-muted text-center">428 contributions in the last year</p>
+                </div>
+                
+                <!-- Certifications Actual Data -->
+                <div class="card float-card float-delayed scroll-reveal">
+                    <h3>Certifications</h3>
+                    <div class="certs-list mt-4">
+                        <div class="cert-item"><span class="cert-plat">NxtWave CCBP 4.0</span><span class="cert-name">MCP Project – Model Context Protocol Workshop</span></div>
+                        <div class="cert-item"><span class="cert-plat">Cisco Networking Academy</span><span class="cert-name">Data Analytics Essentials</span></div>
+                        <div class="cert-item"><span class="cert-plat">Cisco Networking Academy</span><span class="cert-name">Networking Basics</span></div>
+                        <div class="cert-item"><span class="cert-plat">NxtWave CCBP 4.0</span><span class="cert-name">Build Your Own Dynamic Web Application</span></div>
+                        <div class="cert-item"><span class="cert-plat">NxtWave CCBP 4.0</span><span class="cert-name">Build Your Own Responsive Website</span></div>
+                        <div class="cert-item"><span class="cert-plat">NxtWave CCBP 4.0</span><span class="cert-name">Responsive Web Design Using Flexbox</span></div>
+                        <div class="cert-item"><span class="cert-plat">Udemy</span><span class="cert-name">Foundations of Web Development: CSS, JS, React</span></div>
+                        <div class="cert-item"><span class="cert-plat">LinkedIn Learning</span><span class="cert-name">HTML Essential Training (2020)</span></div>
+                        <div class="cert-item"><span class="cert-plat">LinkedIn Learning</span><span class="cert-name">Oracle Database 19c: Basic SQL</span></div>
+                        <div class="cert-item"><span class="cert-plat">LinkedIn Learning</span><span class="cert-name">Getting Started with Power BI</span></div>
+                        <div class="cert-item"><span class="cert-plat">Udemy</span><span class="cert-name">UI/UX Design With Figma: 5 Real World Projects</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="content-section contact-section">
+            <div class="container scroll-reveal text-center">
+                <h2>Initiate Protocol</h2>
+                <div class="header-line center mb-4"></div>
+                <p class="mb-4 text-muted">My comms network is always open. Let's build the future together.</p>
+                
+                <div class="social-links mt-4">
+                    <a href="mailto:pranavrowthri0808@gmail.com" class="social-btn">Email</a>
+                    <a href="https://www.linkedin.com/in/pranav-rowthri/" target="_blank" class="social-btn">LinkedIn</a>
+                    <a href="https://github.com/pranavviper" target="_blank" class="social-btn">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <h3 class="footer-title">PRANAV ROWTHRI</h3>
+            <p class="footer-copy">© 2026 SpaceLab Portfolio. All Systems Operational.</p>
+            <a href="assets/resume/pranav-2.pdf" target="_blank" class="btn btn-primary btn-sm mt-4">Download Resume PDF</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/particles.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
